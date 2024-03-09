@@ -1,0 +1,17 @@
+# Example code that passes pycodestyle checks
+def greet(name):
+    """
+    Greets a person by name.
+    Args:
+        name (str): The name of the person.
+    Returns:
+        str: A friendly greeting.
+    """
+    return f"Hello, {name}!"
+
+def main():
+    user_name = input("Enter your name: ")
+    print(greet(user_name))
+
+if __name__ == "__main__":
+    main()
